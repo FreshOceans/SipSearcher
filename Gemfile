@@ -61,9 +61,8 @@ group :development do
 end
 
 # Production Environment
-group :production do
-  gem 'rails_12factor'
-end
+# group :production do
+# end
 
 ruby '2.4.1'
 
