@@ -13,7 +13,7 @@ class Photo < ApplicationRecord
         original: "-quality 85 -strip"
     },
     storage: :s3,
-    s3_region: AWS_REGION,
+    s3_region: S3_REGION,
     s3_credentials: {
         bucket: S3_BUCKET,
         access_key_id: AWS_ACCESS_KEY_ID,
