@@ -9,6 +9,8 @@ Rails.application.configure do
   GOOGLE_PLACES_KEY          = ENV['GOOGLE_PLACES_KEY']
   GOOGLE_JS_KEY              = ENV['GOOGLE_JS_KEY']
   GOOGLE_MAPS_KEY            = ENV['GOOGLE_MAPS_KEY']
+  DEVISE_KEY_BASE            = ENV['DEVISE_KEY_BASE']
+
 
   # Code is not reloaded between requests.
   config.cache_classes = true
