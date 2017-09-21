@@ -8,7 +8,7 @@ Rails.application.configure do
   AWS_SECRET_ACCESS_KEY      = ENV["AWS_SECRET_ACCESS_KEY"]
   GOOGLE_PLACES_KEY          = ENV['GOOGLE_PLACES_KEY']
   GOOGLE_JS_KEY              = ENV['GOOGLE_JS_KEY']
-  GOOGLE_MAPS_KEY             = ENV['GOOGLE_MAPS_KEY']
+  GOOGLE_MAPS_KEY            = ENV['GOOGLE_MAPS_KEY']
 
   # Code is not reloaded between requests.
   config.cache_classes = true
