@@ -13,6 +13,13 @@ gem 'paperclip'
 gem 'aws-sdk'
 gem 'httparty'
 gem 'jquery-rails'
+gem 'gon'
+gem 'unicorn'
+
+# Production Environment
+group :production do
+    gem 'rails_12factor'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
@@ -60,8 +67,6 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'unicorn'
-  gem 'pg'
 end
 
 ruby '2.4.1'
