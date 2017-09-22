@@ -11,7 +11,7 @@ Rails.application.configure do
   GOOGLE_MAPS_KEY            = ENV['GOOGLE_MAPS_KEY']
   DEVISE_KEY_BASE            = ENV['DEVISE_KEY_BASE']
 
-  # config.action_controller.asset_host = ENV['CDN_URL'] if ENV['CDN_URL']
+  config.action_controller.asset_host = ENV['CDN_URL'] if ENV['CDN_URL']
 
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
