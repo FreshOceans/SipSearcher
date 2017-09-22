@@ -1,0 +1,1142 @@
+/* line 13, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper {
+  box-sizing: border-box;
+  width: 700px;
+  margin: auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  background-color: #e6e6e6;
+}
+@media screen and (max-width: 780px) {
+  /* line 13, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper {
+    width: 360px;
+  }
+}
+/* line 22, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media screen and (max-width: 780px) {
+  /* line 22, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #info-map-div {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* line 32, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container {
+  box-sizing: border-box;
+  width: 320px;
+  height: 320px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+/* line 41, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-name-container {
+  box-sizing: border-box;
+  height: 60px;
+  border-bottom: 1px solid #99c2ff;
+  text-align: center;
+}
+/* line 46, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-name-container #bar-name {
+  margin: 0;
+  line-height: 60px;
+  font-size: 26px;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/* line 54, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-address-container {
+  box-sizing: border-box;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 59, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-address-container #bar-address {
+  margin: 0;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+}
+/* line 66, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-tag-container {
+  box-sizing: border-box;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 71, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-tag-container #bar-tag {
+  margin: 0;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+}
+/* line 78, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-hours-container {
+  box-sizing: border-box;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 83, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #bar-hours-container #bar-hours {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/* line 91, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container {
+  box-sizing: border-box;
+  height: 150px;
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 96, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container #drink-icon-wrapper {
+  height: 70px;
+}
+/* line 98, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container #drink-icon-wrapper .icon-box {
+  display: inline-block;
+  margin: 20px;
+}
+/* line 101, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container #drink-icon-wrapper .icon-box img {
+  height: 45px;
+}
+/* line 106, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container #rating-wrapper {
+  height: 70px;
+  font-family: "Amaranth", sans-serif;
+}
+/* line 109, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container #rating-wrapper .rating-box {
+  display: inline-block;
+  height: 40px;
+  width: 50px;
+  margin: 10px 18px;
+}
+/* line 114, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #drink-rating-container #rating-wrapper .rating-box .rating {
+  margin: 0;
+  font-size: 20px;
+  line-height: 40px;
+}
+/* line 122, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #bar-info-container #last-updated {
+  font-size: 10px;
+}
+/* line 126, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #info-map-div #map-container {
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  height: 320px;
+  width: 320px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 780px) {
+  /* line 126, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #info-map-div #map-container {
+    margin-top: 20px;
+  }
+}
+/* line 138, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area {
+  padding: 0 20px 20px 20px;
+}
+/* line 140, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+/* line 149, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 780px) {
+  /* line 149, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating .rating-top {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* line 157, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .left-info {
+  box-sizing: border-box;
+  display: flex;
+  width: 340px;
+  align-items: center;
+}
+@media screen and (max-width: 780px) {
+  /* line 157, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating .rating-top .left-info {
+    width: 300px;
+  }
+}
+/* line 165, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .left-info #thumbnail {
+  box-sizing: border-box;
+  height: 65px;
+  width: 65px;
+  border: 1px solid #99c2ff;
+  border-radius: 3px;
+  outline: none;
+}
+/* line 173, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .left-info .name-post-data {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+}
+/* line 177, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .left-info .name-post-data .rater-name {
+  margin: 0;
+  font-size: 26px;
+  padding: 0 10px;
+  font-family: "Amaranth", sans-serif;
+}
+/* line 182, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .left-info .name-post-data .rater-name a {
+  text-decoration: none;
+  color: #002266;
+}
+/* line 187, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .left-info .name-post-data .rater-date {
+  margin: 0;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+}
+/* line 195, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .right-info {
+  box-sizing: border-box;
+  width: 340px;
+}
+@media screen and (max-width: 780px) {
+  /* line 195, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating .rating-top .right-info {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+/* line 202, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .right-info .report-icon-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+/* line 207, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .right-info .report-icon-container .report-icon-box img {
+  height: 30px;
+}
+/* line 212, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .right-info .report-rating-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 215, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .right-info .report-rating-container .report-rating-box {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+/* line 219, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-top .right-info .report-rating-container .report-rating-box .report-rating {
+  margin: 0;
+  font-family: "Amaranth", sans-serif;
+}
+/* line 227, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-bottom {
+  width: 100%;
+  padding-top: 10px;
+}
+/* line 230, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-bottom .rating-comment-container {
+  padding: 5px;
+  border: 1px solid #99c2ff;
+  border-radius: 3px;
+}
+/* line 234, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating .rating-bottom .rating-comment-container .rating-comment {
+  margin: 0;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/* line 242, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+/* line 251, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top {
+  display: flex;
+  height: 80px;
+}
+@media screen and (max-width: 780px) {
+  /* line 251, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating-form .rating-form-top {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* line 259, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-left-info {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 80px;
+  width: 340px;
+  align-items: center;
+}
+@media screen and (max-width: 780px) {
+  /* line 259, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-left-info {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+/* line 269, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-left-info #new-rating-header {
+  text-align: center;
+  margin: 0;
+  font-size: 26px;
+  padding: 0 10px;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/* line 277, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-left-info #rating-form-rating-select {
+  text-align: center;
+  margin: 10px;
+}
+/* line 280, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-left-info #rating-form-rating-select #rating-label {
+  font-family: "Amaranth", sans-serif;
+}
+/* line 286, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info {
+  box-sizing: border-box;
+  height: 80px;
+  width: 340px;
+}
+@media screen and (max-width: 780px) {
+  /* line 286, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info {
+    width: 300px;
+    margin-top: 10px;
+  }
+}
+/* line 294, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info .rating-form-icon-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+/* line 299, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info .rating-form-icon-container .rating-form-icon-box img {
+  height: 30px;
+}
+/* line 304, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info .rating-form-rating-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 307, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info .rating-form-rating-container .rating-form-rating-box {
+  display: inline-block;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+}
+/* line 312, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-top .rating-form-right-info .rating-form-rating-container .rating-form-rating-box .rating-form-rating {
+  margin: 0;
+  font-family: "Amaranth", sans-serif;
+}
+/* line 320, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-bottom {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+/* line 325, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-bottom .rating-form-comment-area {
+  box-sizing: border-box;
+  height: 65px;
+  width: 638px;
+  padding: 5px;
+  border: 1px solid #99c2ff;
+  resize: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+  font-size: 16px;
+}
+@media screen and (max-width: 780px) {
+  /* line 325, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+  #bar-detail-wrapper #ratings-area #rating-form .rating-form-bottom .rating-form-comment-area {
+    width: 300px;
+    height: 120px;
+  }
+}
+/* line 343, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-bottom .submit_btn {
+  position: absolute;
+  box-sizing: border-box;
+  height: 30px;
+  width: 100px;
+  bottom: 10px;
+  right: 5px;
+  background-color: #ff3333;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Amaranth", sans-serif;
+  border: none;
+  border-radius: 4px;
+}
+/* line 359, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-bottom .submit_btn:hover {
+  background-color: #ff6666;
+}
+/* line 362, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_bardetail.scss */
+#bar-detail-wrapper #ratings-area #rating-form .rating-form-bottom .submit_btn:active {
+  background-color: #e60000;
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+/* line 5, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_base.scss */
+body {
+  margin: 0;
+}
+/* line 7, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_base.scss */
+body #yield-container {
+  position: relative;
+  top: 70px;
+  padding: 20px;
+}
+@media screen and (max-width: 780px) {
+  /* line 7, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_base.scss */
+  body #yield-container {
+    top: 110px;
+    padding: 0;
+  }
+}
+/* line 15, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_base.scss */
+body #yield-container .header {
+  text-align: center;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/* line 15, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  width: 360px;
+  margin: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #e6e6e6;
+  padding: 20px;
+}
+@media screen and (max-width: 780px) {
+  /* line 15, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+  .form-wrapper {
+    top: 20px;
+  }
+}
+/* line 26, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area {
+  box-sizing: border-box;
+  width: 320px;
+  height: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+/* line 34, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div {
+  box-sizing: border-box;
+  width: 290px;
+  margin: 10px auto;
+  text-align: center;
+}
+/* line 39, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .bar-index-text {
+  text-decoration: none;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+  box-sizing: border-box;
+  line-height: 50px;
+  font-size: 22px;
+}
+/* line 47, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .input-group, .form-wrapper .form-area .form-div .reg-grp {
+  margin: 30px 0;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+  font-size: 18px;
+}
+/* line 52, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .input-group .form-label, .form-wrapper .form-area .form-div .reg-grp .form-label, .form-wrapper .form-area .form-div .reg-grp .reg-label {
+  padding: 5px;
+}
+/* line 55, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .input-group .form-input, .form-wrapper .form-area .form-div .reg-grp .form-input, .form-wrapper .form-area .form-div .reg-grp .reg-input {
+  height: 30px;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  font-size: 18px;
+  padding: 3px;
+  border-radius: 3px;
+}
+/* line 64, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .reg-grp {
+  margin: 10px 0;
+}
+/* line 76, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .checkbox {
+  line-height: 40px;
+}
+/* line 79, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .checkbox-label {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+}
+/* line 84, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .form-btn, .form-wrapper .form-area .form-div .register-btn, .form-wrapper .form-area .form-div .cancel-btn, .form-wrapper .form-area .form-div .forgot-pass-btn {
+  display: block;
+  box-sizing: border-box;
+  height: 50px;
+  width: 160px;
+  margin: 15px auto;
+  background-color: #002266;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Amaranth", sans-serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* line 100, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .form-btn:hover, .form-wrapper .form-area .form-div .register-btn:hover, .form-wrapper .form-area .form-div .cancel-btn:hover, .form-wrapper .form-area .form-div .forgot-pass-btn:hover {
+  background-color: #66a3ff;
+}
+/* line 103, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .form-btn:active, .form-wrapper .form-area .form-div .register-btn:active, .form-wrapper .form-area .form-div .cancel-btn:active, .form-wrapper .form-area .form-div .forgot-pass-btn:active {
+  background-color: #001133;
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+/* line 112, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .cancel-btn {
+  text-decoration: none;
+  line-height: 50px;
+  background-color: #ff3333;
+}
+/* line 117, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .cancel-btn:hover {
+  background-color: #ff6666;
+}
+/* line 120, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .cancel-btn:active {
+  background-color: #e60000;
+}
+/* line 124, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .forgot-pass-btn {
+  background-color: #ff3333;
+  width: 240px;
+}
+/* line 128, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .forgot-pass-btn:hover {
+  background-color: #ff6666;
+}
+/* line 131, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .forgot-pass-btn:active {
+  background-color: #e60000;
+}
+/* line 135, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .register-option {
+  float: left;
+  font-size: 12px;
+  color: #002266;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+/* line 141, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .register-option:hover {
+  text-decoration: underline;
+}
+/* line 145, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .forgot-pass-option {
+  float: right;
+  font-size: 12px;
+  color: #002266;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+/* line 151, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-div .forgot-pass-option:hover {
+  text-decoration: underline;
+}
+/* line 156, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-grp-div-lg {
+  height: 100px;
+}
+/* line 159, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-grp-div-md {
+  height: 70px;
+}
+/* line 162, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .form-area .form-grp-div-sm {
+  height: 40px;
+}
+/* line 166, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_forms.scss */
+.form-wrapper .bar-index {
+  height: 70px;
+  margin-bottom: 20px;
+}
+/* line 15, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+@media screen and (max-width: 780px) {
+  /* line 15, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+  #home-wrapper .section {
+    width: 360px;
+  }
+}
+/* line 26, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section .top-box {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+@media screen and (max-width: 780px) {
+  /* line 26, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+  #home-wrapper .section .top-box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+}
+/* line 39, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section .top-box .top {
+  height: 150px;
+  text-align: center;
+}
+/* line 42, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section .top-box .top img {
+  height: 60px;
+  margin: 50px 0;
+}
+/* line 47, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section .top-box .bottom-phrase {
+  font-size: 19px;
+}
+/* line 51, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section .middle-box {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width: 780px) {
+  /* line 51, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+  #home-wrapper .section .middle-box {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}
+/* line 61, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section #quotes-area .quote {
+  margin-top: 80px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+@media screen and (max-width: 780px) {
+  /* line 61, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+  #home-wrapper .section #quotes-area .quote {
+    margin-top: 20px;
+  }
+}
+/* line 70, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section #quotes-area .signature {
+  font-family: "Amaranth", sans-serif;
+  font-size: 20px;
+  text-align: right;
+  color: #002266;
+}
+/* line 77, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section #app-image-area {
+  box-sizing: border-box;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid #e6e6e6;
+}
+/* line 81, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper .section #app-image-area #app-img {
+  height: 100%;
+}
+/* line 87, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #top-section {
+  border-bottom: 1px solid #e6e6e6;
+}
+@media screen and (max-width: 780px) {
+  /* line 87, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+  #home-wrapper #top-section {
+    padding: 20px;
+    border-bottom: none;
+  }
+}
+/* line 93, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #top-section #drinks-img {
+  height: 100px;
+  margin: 30px 0;
+}
+/* line 98, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #middle-section {
+  border-bottom: 1px solid #e6e6e6;
+}
+/* line 101, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #bottom-section {
+  display: block;
+  text-align: center;
+}
+@media screen and (max-width: 780px) {
+  /* line 101, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+  #home-wrapper #bottom-section {
+    padding: 20px;
+  }
+}
+/* line 107, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #bottom-section #phrase-section {
+  font-family: "Croissant One", cursive;
+  font-style: italic;
+  color: #002266;
+}
+/* line 112, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #bottom-section a {
+  text-decoration: none;
+}
+/* line 114, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_homepage.scss */
+#home-wrapper #bottom-section a img {
+  height: 40px;
+}
+/* line 1, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_landing.scss */
+#landing_info {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px red;
+}
+/* line 1, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_maps.scss */
+#map-container {
+  height: 300px;
+  width: 300px;
+  border: 1px;
+}
+/* line 16, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  height: 70px;
+  width: 100%;
+  background-color: #e6e6e6;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 780px) {
+  /* line 16, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+  #navbar {
+    height: 110px;
+  }
+}
+/* line 30, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+#navbar #logo {
+  float: left;
+  color: #002266;
+  font-family: "Croissant One", cursive;
+  font-style: italic;
+  margin: 0;
+}
+@media screen and (max-width: 780px) {
+  /* line 30, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+  #navbar #logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+/* line 43, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+#navbar #nav-items {
+  float: right;
+  height: 60px;
+}
+@media screen and (max-width: 780px) {
+  /* line 43, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+  #navbar #nav-items {
+    float: none;
+    text-align: center;
+  }
+}
+/* line 50, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+#navbar #nav-items a {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  height: 40px;
+  width: 90px;
+  margin: 5px;
+  background-color: #002266;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Amaranth", sans-serif;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  line-height: 40px;
+}
+@media screen and (max-width: 780px) {
+  /* line 50, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+  #navbar #nav-items a {
+    height: 30px;
+    width: 75px;
+    margin: 2px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+/* line 75, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+#navbar #nav-items a:hover {
+  background-color: #66a3ff;
+}
+/* line 78, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_navbar.scss */
+#navbar #nav-items a:active {
+  background-color: #001133;
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+/* app/stylesheets/user_reports.scss */
+/* line 4, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_user_reports.scss */
+#user-profile-reports {
+  display: none;
+}
+/* line 13, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper {
+  box-sizing: border-box;
+  width: 700px;
+  margin: auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  background-color: #e6e6e6;
+}
+@media screen and (max-width: 780px) {
+  /* line 13, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+  #detail-wrapper {
+    width: 360px;
+  }
+}
+/* line 22, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper .profile-name-container {
+  box-sizing: border-box;
+  height: 40px;
+  width: 320px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+/* line 29, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper .profile-name-container .profile-name {
+  margin: 0;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/* line 35, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media screen and (max-width: 780px) {
+  /* line 35, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+  #detail-wrapper #detail-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* line 45, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container #left-top-area, #detail-wrapper #detail-container .bar-index-box {
+  box-sizing: border-box;
+  width: 320px;
+  height: 320px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+/* line 55, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .bar-index-box {
+  height: 160px;
+  padding: 10px;
+}
+/* line 60, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container #right-bottom-area {
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  height: 320px;
+  width: 320px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 780px) {
+  /* line 60, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+  #detail-wrapper #detail-container #right-bottom-area {
+    margin-top: 20px;
+  }
+}
+/* line 70, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container #right-bottom-area img {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+/* line 76, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div {
+  box-sizing: border-box;
+  width: 290px;
+  height: 50px;
+  margin: 5px auto;
+  text-align: center;
+}
+/* line 82, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div #item-display {
+  margin: 20px;
+  font-size: 18px;
+}
+/* line 85, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div #item-display .item-label {
+  font-family: "Raleway", sans-serif;
+}
+/* line 88, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div #item-display .item {
+  color: #002266;
+  font-family: "Amaranth", sans-serif;
+}
+/* line 93, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div .form-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  height: 50px;
+  width: 160px;
+  margin: 5px;
+  background-color: #ff3333;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  outline: none;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Amaranth", sans-serif;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  line-height: 50px;
+}
+/* line 111, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div .form-btn:hover {
+  background-color: #ff6666;
+}
+/* line 114, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #detail-container .form-div .form-btn:active {
+  background-color: #e60000;
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+/* line 122, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area {
+  padding: 0 20px 20px 20px;
+}
+/* line 124, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+/* line 133, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 780px) {
+  /* line 133, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+  #detail-wrapper #ratings-area .rating .rating-top {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* line 141, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .left-info {
+  box-sizing: border-box;
+  height: 65px;
+  width: 340px;
+}
+@media screen and (max-width: 780px) {
+  /* line 141, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+  #detail-wrapper #ratings-area .rating .rating-top .left-info {
+    width: 300px;
+  }
+}
+/* line 148, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .left-info .quarter-div {
+  height: 30px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+}
+/* line 154, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .left-info .quarter-div .rating-bar-name {
+  margin: 0;
+  text-decoration: none;
+  font-family: "Amaranth", sans-serif;
+  font-size: 18px;
+}
+/* line 160, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .left-info .quarter-div .rating-label {
+  font-family: "Raleway", sans-serif;
+}
+/* line 163, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .left-info .quarter-div .rating-display {
+  font-family: "Amaranth", sans-serif;
+  font-size: 18px;
+}
+/* line 169, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .right-info {
+  box-sizing: border-box;
+  width: 340px;
+}
+@media screen and (max-width: 780px) {
+  /* line 169, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+  #detail-wrapper #ratings-area .rating .rating-top .right-info {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+/* line 176, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .right-info .report-icon-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+/* line 181, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .right-info .report-icon-container .report-icon-box img {
+  height: 30px;
+}
+/* line 186, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .right-info .report-rating-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 189, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .right-info .report-rating-container .report-rating-box {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+/* line 194, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-top .right-info .report-rating-container .report-rating-box .report-rating {
+  margin: 0;
+  font-family: "Amaranth", sans-serif;
+}
+/* line 202, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-bottom {
+  width: 100%;
+  padding-top: 10px;
+}
+/* line 205, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-bottom .rating-comment-container {
+  padding: 5px;
+  border: 1px solid #99c2ff;
+  border-radius: 3px;
+}
+/* line 209, /Users/Nobre/Desktop/Homework/Ruby/Rails/SipSearcher/app/assets/stylesheets/_userprofile.scss */
+#detail-wrapper #ratings-area .rating .rating-bottom .rating-comment-container .rating-comment {
+  margin: 0;
+  font-family: "Amaranth", sans-serif;
+  color: #002266;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
