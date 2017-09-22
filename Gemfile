@@ -15,7 +15,7 @@ gem 'httparty'
 gem 'jquery-rails'
 gem 'gon'
 gem 'unicorn'
-gem 'rack-cors'
+# gem 'rack-cors'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
